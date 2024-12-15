@@ -7,7 +7,7 @@ interface Props {
 
 function Button({title , href}: Props) {
     return (
-        <a href={href} target="blank">
+        <a href={href} target="_blank">
             <article>
                 <h2>{title}</h2>
             </article>
