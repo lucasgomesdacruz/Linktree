@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.backround {
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./assets/madara.webp");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .dark {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(12, 12, 12, 0.808);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5%;
+       
+        h1 {
+            width: 100%;
+            font-size: 1.8rem;
+            color: #ffffff;
+            // text-transform: uppercase;
+            text-align: center;
+        }
+    }
+}
