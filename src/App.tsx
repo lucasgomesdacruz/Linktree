@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.scss";
 import Perfil from "./assets/perfil.png";
 import Button from "./components/Button/Button";
@@ -48,7 +48,6 @@ function App() {
           </ul>
         </main>
         <footer>
-          
           <p>© 2024 Lucas Gomes - Todos os direitos reservados.</p>
         </footer>
       </div>
