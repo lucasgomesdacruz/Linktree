@@ -1,7 +1,12 @@
-import { useState } from "react";
 import "./App.scss";
+
+import { useState } from "react";
+
+
 import Perfil from "./assets/perfil.png";
 import Button from "./components/Button/Button";
+
+
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 

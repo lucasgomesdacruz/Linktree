@@ -13,7 +13,7 @@ $dark-text: #ffffff;
 }
 
 .background.light {
-    background-image: url("./assets/apelao.jpg");
+    background-image: url("./assets/apelao.webp");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,6 +46,15 @@ $dark-text: #ffffff;
   }
 }
 
+@media (min-width: 1000px) {
+  .background.light {
+    background-position: 50% 30%;
+  }
+
+  .background.dark {
+    background-position: 50% 30%;
+  }
+}
 
 .background {
   max-width: 100vw;
