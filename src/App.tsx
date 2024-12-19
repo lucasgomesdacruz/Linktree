@@ -3,7 +3,7 @@ import "./App.scss";
 import { useState } from "react";
 
 
-import Perfil from "./assets/perfil.png";
+import Perfil from "./assets/perfil.webp";
 import Button from "./components/Button/Button";
 
 
