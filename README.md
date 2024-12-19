@@ -1,5 +1,5 @@
 # Linktree
-### Um projeto Linktree desenvolvido com React.js, TypeScript e SCSS, apresentando o perfil de um desenvolvedor de software, incluindo links para o portfólio, GitHub e LinkedIn.
+### Projeto Linktree desenvolvido com React.js, TypeScript e SCSS, apresentando o perfil de um desenvolvedor de software, incluindo links para o portfólio, GitHub e LinkedIn.
 
 # 📷 Preview
 ### Abaixo está uma captura de tela da interface do projeto:
