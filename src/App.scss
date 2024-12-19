@@ -48,10 +48,12 @@ $dark-text: #ffffff;
 
 @media (min-width: 1000px) {
   .background.light {
+    background-image: url("./assets/YutaLitgh.webp");
     background-position: 50% 30%;
   }
 
   .background.dark {
+    background-image: url("./assets/YutaDark.webp");
     background-position: 50% 30%;
   }
 }
