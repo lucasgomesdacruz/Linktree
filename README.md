@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# Linktree
+### Projeto Linktree desenvolvido com React.js, TypeScript e SCSS, apresentando o perfil de um desenvolvedor de software, incluindo links para o portfólio, GitHub e LinkedIn.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📷 Preview
+### Abaixo está uma captura de tela da interface do projeto:
+![Macbook-Air-linktreegomeess vercel app](https://github.com/user-attachments/assets/40bc9ddb-07b7-4bea-a5cd-939280d73af1)
 
-Currently, two official plugins are available:
+# 🛠️ Tecnologias Utilizadas
+## Neste projeto, utilizei as seguintes tecnologias:
+ ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) 
+#### React.js: Biblioteca JavaScript para construção de interfaces de usuário.
+#### TypeScript: Superconjunto do JavaScript, adicionando tipagem estática e maior segurança.
+#### SCSS: Preprocessador CSS com recursos adicionais como variáveis, nesting e mixins.
+#### React Icons: Biblioteca de ícones para projetos React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📑 Funcionalidades
+### A página apresenta:
+#### Alternância de Tema: Troque entre os modos claro e escuro com um botão. <br>
 
-## Expanding the ESLint configuration
+#### Design Responsivo: Otimizado para diferentes tamanhos de tela, incluindo desktops e dispositivos móveis. <br>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+#### Estilo Personalizado: Estilizado com SCSS para uma interface moderna e limpa. <br>
 
-- Configure the top-level `parserOptions` property like this:
+# 🖼️ Modos Claro e Escuro
+#### Modo Claro: Design limpo e claro, com cores suaves.
+#### Modo Escuro: Design focado, de alto contraste, para melhor experiência em ambientes de baixa luz.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+# 📸 Pré-visualização
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+#### Modo Claro
+![iPhone-13-(iOS-15)-linktreegomeess vercel app (1)](https://github.com/user-attachments/assets/bc0e8ba3-3a40-446b-91b0-b2c026bdbfd2)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+#### Modo Escuro
+![iPhone-13-(iOS-15)-linktreegomeess vercel app](https://github.com/user-attachments/assets/3f3eed88-e04e-437c-a750-d05053f3444f)
+
+
+
+# 🎯 Objetivo do Projeto
+O objetivo principal deste projeto foi criar uma versão personalizada de Linktree para exibir links importantes de um desenvolvedor de software, como portfólio, GitHub e LinkedIn, de forma moderna e interativa. Além disso, o projeto tinha como propósito aprimorar habilidades em React.js, TypeScript, SCSS e boas práticas de desenvolvimento web, enquanto proporcionava uma experiência de usuário mais envolvente com funcionalidades como alternância de tema. <br>
+
+# 💡 Aprendizados 
+1 - Criação de um Linktree Personalizado: Desenvolvi uma página com múltiplos links, semelhante ao Linktree, mas com design e funcionalidades personalizadas.<br>
+
+2- React.js e TypeScript: Aprimorei o uso de React.js para criar componentes reutilizáveis e manipular estados com TypeScript para garantir tipagem estática e segurança no código.<br>
+
+3- Integração de React Icons e SCSS: Adicionei ícones aos links utilizando React Icons e criei um design responsivo e dinâmico com SCSS, incluindo temas claro e escuro.<br>
+
+4 - Design Responsivo: Aprendi a adaptar o layout para diferentes dispositivos, garantindo uma boa experiência de navegação em telas grandes e pequenas.<br>
+
+5 - Interatividade e Acessibilidade: Melhorei a experiência do usuário com a alternância de tema e adotei práticas de acessibilidade, como o uso de aria-label em ícones.<br>
+
+# 📄 Licença
+Este projeto foi desenvolvido apenas para fins educativos e não possui uma licença específica. <br>
+
