@@ -3,7 +3,7 @@ import "./Button.scss"
 interface Props {
     title: string;
     href: string;
-    icon: React.ReactNode;
+    icon?: React.ReactNode;
 }
 
 function Button({title , href, icon}: Props) {

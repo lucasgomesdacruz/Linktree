@@ -50,6 +50,13 @@ function App() {
                 icon={<FaLinkedin aria-label="Ícone Linkedin" />}
               />
             </li>
+            <li>
+              <Button
+                href="https://nosso-amor-nine.vercel.app/"
+                title="Minha metade"
+                // icon={<FaLinkedin aria-label="Ícone Linkedin" />}
+              />
+            </li>
           </ul>
         </main>
         <footer>
